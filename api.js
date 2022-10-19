@@ -26,3 +26,19 @@ function displayUsers(data) {
         ul.appendChild(li);
     }
 }
+
+
+// my pactice
+// function loadUsers() {
+//     fetch('https://jsonplaceholder.typicode.com/users')
+//         .then(res => res.json())
+//         .then(date => displayUsers(date))
+// };
+// function displayUsers(nizam) {
+//     const ul = document.getElementById('users')
+//     for (const user of nizam) {
+//         const li = document.createElement('li')
+//         li.innerText = `naem:${user.name}. email:${user.email}`;
+//         ul.appendChild(li);
+//     }
+// }
